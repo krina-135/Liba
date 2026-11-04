@@ -1,4 +1,5 @@
 def search_book(name):
     print("Searching book:", name)
+    return "Book found"
 
-search_book("Python")
+print(search_book("Python"))
